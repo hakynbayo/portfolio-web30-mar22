@@ -15,21 +15,22 @@ import img5 from "./images/acepay.png";
 export const Experience = [
   {
     id: 1,
-    date: "2022 - present",
+    date: "APR 2023 - Present",
+    iconsSrc: <IoCodeWorking />,
+    title: "THRINDLE. ",
+    location: "LAGOS, NIGERIA",
+    description:
+    "Contributed to the development of web pages and web-based applications using HTML, React.js, and Next.js. Collaborated closely with the design team to implement UI/UX designs for websites, ensuring a seamless and visually appealing user experience. Conducted code debugging to identify and resolve errors, enhancing the overall functionality of the applications.Actively participated in team meetings, providing valuable insights, and contributing to discussions on project progress and challenges."  
+   
+  },
+  {
+    id: 2, 
+    date: "2022 - Mar 2023",
     iconsSrc: <IoCodeWorking />,
     title: "ASSOCIATE FRONTEND DEVELOPER/DECAGON.",
     location: "LAGOS, NIGERIA",
     description:
-      "Built projects with Nodejs, React.js, Typescript, and Javascript. ",
-  },
-  {
-    id: 2,
-    date: "JAN 2022 - MAR 2022",
-    iconsSrc: <IoCodeWorking />,
-    title: "FRONTEND INTERN/HOPEWELL ENGINEERING COMPANY. ",
-    location: "LAGOS, NIGERIA",
-    description:
-      "Assisting with the development of webpages and web-based applications using HTML, CSS, JavaScript and React.",
+      "Built projects with Nodejs, React.js, Typescript, and Javascript. "
   },
   {
     id: 3,
