@@ -46,7 +46,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://docs.google.com/document/d/14taLVrlH9MfhlFnyTpxSym4dTTCmrvwfNwIS4_ffY-k/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1nGFTZoPMtVKpf5Ay8H-4oos7frrg8qxm/edit"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Resume
