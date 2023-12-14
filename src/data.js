@@ -10,6 +10,7 @@ import img1 from "./images/smoozemusic.png";
 import img2 from "./images/ecommerce.png";
 import img3 from "./images/profiles.jpeg";
 import img4 from "./images/smoozemovie.png";
+import img5 from "./images/acepay.png";
 
 export const Experience = [
   {
@@ -63,7 +64,7 @@ export const Projects = [
     id: 3,
     name: "Ecommerce App ",
     imageSrc: img2,
-    techs: "React Js, Sanity, Tailwind CSS",
+    techs: "React Js, Sanity,TypeScript,SwiperJs, Tailwind CSS",
     github: "https://github.com/hakynbayo/Ecommerice-Website-in-React",
     link: "https://faithy-store.netlify.app/"
   },
@@ -74,6 +75,14 @@ export const Projects = [
     techs: "React, Tailwind CSS, TypeScript, ExpressJs, MongoDB ",
     github: "https://github.com/hakynbayo",
     link: "https://profiles.decagonhq.com/"
+  },
+  {
+    id: 5,
+    name: "Ace Pay",
+    imageSrc: img5,
+    techs: "ReactJs, Tailwind CSS, TypeScript, React Icons ",
+    github: "https://github.com/hakynbayo",
+    link: "https://acepay-t7jh.onrender.com/"
   },
   
 ];
