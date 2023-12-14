@@ -8,7 +8,7 @@ import {
 } from "react-icons/io5";
 import img1 from "./images/smoozemusic.png";
 import img2 from "./images/ecommerce.png";
-import img3 from "./images/Japa-Travel.png";
+import img3 from "./images/profiles.jpeg";
 import img4 from "./images/smoozemovie.png";
 
 export const Experience = [
@@ -69,11 +69,11 @@ export const Projects = [
   },
   {
     id: 4,
-    name: "Travel Page",
+    name: "Profiles HQ",
     imageSrc: img3,
-    techs: "HTML, CSS, Javascript",
-    github: "https://github.com/hakynbayo/Travel-website",
-    link: "https://travell-site.netlify.app/"
+    techs: "React, Tailwind CSS, TypeScript, ExpressJs, MongoDB ",
+    github: "https://github.com/hakynbayo",
+    link: "https://profiles.decagonhq.com/"
   },
   
 ];
