@@ -18,7 +18,9 @@ function App() {
       <div className="flex w-screen min-h-screen flex-col items-center justify-center relative bg-primary pb-20">
         <nav className="w-full px-6 z-50  fixed inset-x-0 top-2 flex justify-center items-center ">
           <div className=" w-full md:w-880 bg-navBar p-4 rounded-2xl flex items-center">
-            <p className="text-lg text-slate-200 font-medium">Akinbayo Akinwande</p>
+            <p className="text-lg text-slate-200 font-medium">
+              Akinbayo Akinwande
+            </p>
 
             <div className="hidden md:flex items-center gap-6 ml-6 flex-1">
               <a
@@ -46,7 +48,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://docs.google.com/document/d/1nGFTZoPMtVKpf5Ay8H-4oos7frrg8qxm/edit"
+                href="https://docs.google.com/document/d/1kYUkLxKlRTardu8M8RRiWxrqMOGMnw9nAmimGB3ssHk/edit?usp=sharing"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Resume
@@ -122,8 +124,6 @@ function App() {
             className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-24"
             id="about"
           >
-            
-            
             <div className="w-full h-420 flex items-center justify-center">
               <div className="w-275 h-340 relative bg-emerald-200 rounded-md">
                 <img
@@ -138,20 +138,20 @@ function App() {
                 A Proactive, smart, and driven engineer with 2 years of
                 development experience. Expertise in HTML, CSS, SASS,Typescript
                 JavaScript etc and front-end frameworks such as ReactJs for the
-                web and React Native for mobile development with knowledge
-                of UI/UX using Figma. Proficient in developing clean and
-                semantic code, ensuring accessibility, and optimizing website
-                performance for the best user experience.
+                web and React Native for mobile development with knowledge of
+                UI/UX using Figma. Proficient in developing clean and semantic
+                code, ensuring accessibility, and optimizing website performance
+                for the best user experience.
               </p>
 
-              
-              <a href="https://docs.google.com/document/d/1nGFTZoPMtVKpf5Ay8H-4oos7frrg8qxm/edit"
-                class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
+              <a
+                href="https://docs.google.com/document/d/1nGFTZoPMtVKpf5Ay8H-4oos7frrg8qxm/edit"
+                class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80"
+              >
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                Resume
+                  Resume
                 </span>
-                </a>
-              
+              </a>
             </div>
           </section>
 
@@ -198,13 +198,13 @@ function App() {
                   <p className="text-lg text-textBase font-medium uppercase">
                     {n.name.length > 25 ? `${n.name.slice(0, 25)}...` : n.name}
                   </p>
-                
+
                   <a href={n.link}>
-                  <img
-                    src={n.imageSrc}
-                    className="w-full h-full object-cover rounded-md my-4"
-                    alt="project image"
-                  />
+                    <img
+                      src={n.imageSrc}
+                      className="w-full h-full object-cover rounded-md my-4"
+                      alt="project image"
+                    />
                   </a>
 
                   <div className="flex flex-1 items-center justify-between">
