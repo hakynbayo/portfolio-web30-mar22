@@ -9,47 +9,49 @@ import img1 from "./images/smoozemusic.png";
 import img2 from "./images/ecommerce.png";
 import img3 from "./images/profiles.jpeg";
 import img4 from "./images/smoozemovie.png";
-import img5 from "./images/acepay.png";
+import img5 from "./images/thrindle.png";
 
 export const Experience = [
   {
     id: 1,
-    date: "APR 2023 - Present",
+    date: "Jan 2024 - Present",
+    iconsSrc: <IoCodeWorking />,
+    title: "FRONTEND DEVELOPER/Product studio.",
+    location: "LAGOS, NIGERIA",
+    description:
+      "Built projects with NextJs, React.js, Typescript, and Javascript. ",
+  },
+  {
+    id: 2,
+    date: "May 2023 - Jan 2024",
     iconsSrc: <IoCodeWorking />,
     title: "THRINDLE. ",
     location: "LAGOS, NIGERIA",
     description:
       "Contributed to the development of web pages and web-based applications using HTML, React.js, and Next.js. Collaborated closely with the design team to implement UI/UX designs for websites, ensuring a seamless and visually appealing user experience. Conducted code debugging to identify and resolve errors, enhancing the overall functionality of the applications.Actively participated in team meetings, providing valuable insights, and contributing to discussions on project progress and challenges.",
   },
+
   {
-    id: 2,
-    date: "2022 - Mar 2023",
+    id: 3,
+    date: "2022 - April 2023",
     iconsSrc: <IoCodeWorking />,
     title: "ASSOCIATE FRONTEND DEVELOPER/DECAGON.",
     location: "LAGOS, NIGERIA",
     description:
       "Built projects with Nodejs, React.js, Typescript, and Javascript. ",
   },
-  {
-    id: 3,
-    date: " JAN 2020 - DEC 2022",
-    iconsSrc: <IoCodeWorking />,
-    title: "CUSTOMER SERVICE/GTBANK",
-    location: "LAGOS, NIGERIA",
-    description:
-      "Key individual to providing expert knowledge relating to products and services to new and existing clients. Providing customer services, to resolve and answer various banking questions.",
-  },
 ];
 
 export const Projects = [
   {
     id: 1,
-    name: "Smooze Music",
-    imageSrc: img1,
-    techs: "ReactJs,Typescript, ContextApi, React Icon, Firebase, Postgres",
-    github: "https://github.com/hakynbayo/Music-App",
-    link: "https://smooze.netlify.app/",
+    name: "Thrindle LandingPage",
+    imageSrc: img5,
+    techs: "NextJstJs, Tailwind CSS, TypeScript, React Icons ",
+    github: "#",
+    link: "https://thrindle.com",
   },
+
   {
     id: 2,
     name: "Smooze Movie",
@@ -68,19 +70,20 @@ export const Projects = [
   },
   {
     id: 4,
+    name: "Smooze Music",
+    imageSrc: img1,
+    techs: "ReactJs,Typescript, ContextApi, React Icon, Firebase, Postgres",
+    github: "https://github.com/hakynbayo/Music-App",
+    link: "https://smooze.netlify.app/",
+  },
+
+  {
+    id: 5,
     name: "Profiles HQ",
     imageSrc: img3,
     techs: "React, Tailwind CSS, TypeScript, ExpressJs, MongoDB ",
     github: "https://github.com/hakynbayo",
     link: "https://profiles.decagonhq.com/",
-  },
-  {
-    id: 5,
-    name: "Ace Pay",
-    imageSrc: img5,
-    techs: "ReactJs, Tailwind CSS, TypeScript, React Icons ",
-    github: "https://github.com/hakynbayo",
-    link: "https://acepay-t7jh.onrender.com/",
   },
 ];
 
