@@ -16,26 +16,26 @@ export const Experience = [
     id: 1,
     date: "Jan 2024 - Present",
     iconsSrc: <IoCodeWorking />,
-    title: "FRONTEND DEVELOPER/Product studio.",
+    title: "Frontend Developer at Product Studio.",
     location: "LAGOS, NIGERIA",
     description:
-      "Built projects with NextJs, React.js, Typescript, and Javascript. ",
+      "Contributed to the development of web pages and web-based applications using HTML, React.js, and Next.js. Collaborated closely with the design team to implement UI/UX designs for websites, ensuring a seamless and visually appealing user experience. Conducted code debugging to identify and resolve errors, enhancing the overall functionality of the applications.Actively participated in team meetings, providing valuable insights, and contributing to discussions on project progress and challenges.",
   },
   {
     id: 2,
     date: "May 2023 - Jan 2024",
     iconsSrc: <IoCodeWorking />,
-    title: "THRINDLE. ",
+    title: "Frontend Developer at Thrindle. ",
     location: "LAGOS, NIGERIA",
     description:
-      "Contributed to the development of web pages and web-based applications using HTML, React.js, and Next.js. Collaborated closely with the design team to implement UI/UX designs for websites, ensuring a seamless and visually appealing user experience. Conducted code debugging to identify and resolve errors, enhancing the overall functionality of the applications.Actively participated in team meetings, providing valuable insights, and contributing to discussions on project progress and challenges.",
+      "Built projects with NextJs, React.js, Typescript, and Javascript. ",
   },
 
   {
     id: 3,
     date: "2022 - April 2023",
     iconsSrc: <IoCodeWorking />,
-    title: "ASSOCIATE FRONTEND DEVELOPER/DECAGON.",
+    title: "Associate Software Developer at Decagon.",
     location: "LAGOS, NIGERIA",
     description:
       "Built projects with Nodejs, React.js, Typescript, and Javascript. ",
