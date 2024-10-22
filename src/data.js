@@ -5,7 +5,7 @@ import {
   IoLogoLinkedin,
   IoLogoWhatsapp,
 } from "react-icons/io5";
-import img1 from "./images/smoozemusic.png";
+import img1 from "./images/Ireti.png";
 import img2 from "./images/ecommerce.png";
 import img3 from "./images/profiles.jpeg";
 import img4 from "./images/smoozemovie.png";
@@ -70,11 +70,11 @@ export const Projects = [
   },
   {
     id: 4,
-    name: "Smooze Music",
+    name: "Ireti Foundation",
     imageSrc: img1,
-    techs: "ReactJs,Typescript, ContextApi, React Icon, Firebase, Postgres",
-    github: "https://github.com/hakynbayo/Music-App",
-    link: "https://smooze.netlify.app/",
+    techs: "ReactJs,Typescript, ContextApi, React-Icon",
+    github: "https://github.com/hakynbayo/ireti",
+    link: "https://iretifoundation.ng/",
   },
 
   {
