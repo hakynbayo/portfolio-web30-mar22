@@ -14,9 +14,9 @@ import { AnimatePresence, motion } from "framer-motion";
 function App() {
   const [isActive, setIsActive] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Initialize with saved theme or default to dark
+    // Initialize with saved theme or default to light
     const savedTheme = localStorage.getItem('theme');
-    const isDark = savedTheme ? savedTheme === 'dark' : true;
+    const isDark = savedTheme ? savedTheme === 'dark' : false;
     
     // Apply theme immediately on initialization
     if (isDark) {
@@ -46,8 +46,8 @@ function App() {
     <AnimatePresence initial={false}>
       <div className={`flex w-screen min-h-screen flex-col items-center justify-center relative pb-20 transition-colors duration-300 ${isDarkMode ? 'bg-primary' : 'bg-white'}`}>
         <nav className="w-full px-6 z-50  fixed inset-x-0 top-2 flex justify-center items-center">
-          <div className=" w-full md:w-880 bg-lightNavBar dark:bg-navBar p-4 rounded-2xl flex items-center gap-4">
-            <p className="text-base dark:text-slate-200 font-bold">
+          <div className=" w-full md:w-1200 bg-lightNavBar dark:bg-navBar p-4 rounded-2xl flex items-center gap-4">
+            <p className="text-lightText dark:text-slate-200 font-medium">
               Akinbayo Akinwande
             </p>
 
@@ -158,7 +158,7 @@ function App() {
                 href="https://docs.google.com/document/d/12q9QaxHLzmG504oCIV5hEG4ShkVCyhB-/edit?usp=sharing&ouid=102353437795558446276&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="ml-auto text-base text-lightTextSecondary dark:text-textBase font-medium hover:text-lightText dark:hover:text-slate-100 cursor-pointer border border-lightTextSecondary dark:border-textBase px-2 py-1 rounded-xl hover:border-lightText dark:hover:border-gray-100 duration-100 ease-in"
+                className="ml-auto text-base text-lightTextSecondary dark:text-white font-medium hover:text-lightText dark:hover:text-slate-100 cursor-pointer border border-lightTextSecondary dark:border-textBase px-2 py-1 rounded-xl hover:border-lightText dark:hover:border-gray-100 duration-100 ease-in"
               >
                 Resume
               </a>
@@ -197,7 +197,7 @@ function App() {
               </div>
             </div>
             <div className="w-full h-420 flex flex-col items-center justify-center ">
-              <p className="text-lg text-lightTextSecondary dark:text-textBase text-center">
+              <p className="text-lg text-lightTextSecondary dark:text-textBase text-left">
                 A Proactive, smart, and driven engineer with 2 years of
                 development experience. Expertise in HTML, CSS, SASS,Typescript
                 JavaScript etc and front-end frameworks such as ReactJs for the
@@ -211,9 +211,9 @@ function App() {
                 href="https://docs.google.com/document/d/12q9QaxHLzmG504oCIV5hEG4ShkVCyhB-/edit?usp=sharing&ouid=102353437795558446276&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 dark:text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80"
+                className="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80"
               >
-                <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                <span className="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 text-gray-900 dark:text-white rounded-md group-hover:bg-opacity-0 group-hover:text-white">
                   Resume
                 </span>
               </a>
@@ -301,7 +301,7 @@ function App() {
                       </p>
                       <a href={n.github} target="_blank" rel="noopener noreferrer">
                         <motion.div whileTap={{ scale: 0.5 }}>
-                          <IoLogoGithub className="text-lightText dark:text-textBase text-3xl cursor-pointer" />
+                          <IoLogoGithub className="text-lightText dark:text-white text-3xl cursor-pointer" />
                         </motion.div>
                       </a>
                     </div>
