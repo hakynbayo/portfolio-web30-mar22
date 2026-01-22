@@ -48,7 +48,9 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://docs.google.com/document/d/1kYUkLxKlRTardu8M8RRiWxrqMOGMnw9nAmimGB3ssHk/edit?usp=sharing"
+                href="https://docs.google.com/document/d/12q9QaxHLzmG504oCIV5hEG4ShkVCyhB-/edit?usp=sharing&ouid=102353437795558446276&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Resume
@@ -145,7 +147,9 @@ function App() {
               </p>
 
               <a
-                href="https://docs.google.com/document/d/1kYUkLxKlRTardu8M8RRiWxrqMOGMnw9nAmimGB3ssHk/edit?usp=sharing"
+                href="https://docs.google.com/document/d/12q9QaxHLzmG504oCIV5hEG4ShkVCyhB-/edit?usp=sharing&ouid=102353437795558446276&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
                 class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80"
               >
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -199,7 +203,7 @@ function App() {
                     {n.name.length > 25 ? `${n.name.slice(0, 25)}...` : n.name}
                   </p>
 
-                  <a href={n.link}>
+                  <a href={n.link} target="_blank" rel="noopener noreferrer">
                     <img
                       src={n.imageSrc}
                       className="w-full h-full object-cover rounded-md my-4"
@@ -214,7 +218,7 @@ function App() {
                         {n.techs}
                       </span>
                     </p>
-                    <a href={n.github}>
+                    <a href={n.github} target="_blank" rel="noopener noreferrer">
                       <motion.div whileTap={{ scale: 0.5 }}>
                         <IoLogoGithub className="text-textBase text-3xl cursor-pointer" />
                       </motion.div>
@@ -235,6 +239,8 @@ function App() {
                   <motion.a
                     whileTap={{ scale: 0.8 }}
                     href={n.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     key={n.id}
                     className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 rounded-2xl hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3"
                   >

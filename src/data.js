@@ -8,7 +8,7 @@ import {
 import img1 from "./images/Ireti.png";
 import img2 from "./images/ecommerce.png";
 import img3 from "./images/profiles.jpeg";
-import img4 from "./images/smoozemovie.png";
+import img4 from "./images/snaarp.png";
 import img5 from "./images/thrindle.png";
 
 export const Experience = [
@@ -45,6 +45,14 @@ export const Experience = [
 export const Projects = [
   {
     id: 1,
+    name: "Snaarp File Transfer",
+    imageSrc: img4,
+    techs: "NextJs, Typescript, Redux, Tailwind, ShadCN, Tanstack, Lucid React",
+    github: "#",
+    link: "https://app.snaarp.com/",
+  },
+  {
+    id: 2,
     name: "Thrindle LandingPage",
     imageSrc: img5,
     techs: "NextJstJs, Tailwind CSS, TypeScript, React Icons ",
@@ -52,14 +60,7 @@ export const Projects = [
     link: "https://thrindle.com",
   },
 
-  {
-    id: 2,
-    name: "Smooze Movie",
-    imageSrc: img4,
-    techs: "ReactJs,Typescript, Redux, React Icon, Firebase",
-    github: "https://github.com/hakynbayo/Smooze-movie",
-    link: "https://smooze-movie.netlify.app/",
-  },
+  
   {
     id: 3,
     name: "Ecommerce App ",
