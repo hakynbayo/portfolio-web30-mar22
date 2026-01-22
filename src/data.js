@@ -10,35 +10,53 @@ import img2 from "./images/ecommerce.png";
 import img3 from "./images/profiles.jpeg";
 import img4 from "./images/snaarp.png";
 import img5 from "./images/thrindle.png";
+import img6 from "./images/platoonco.png";
 
 export const Experience = [
   {
     id: 1,
-    date: "Jan 2024 - Present",
+    date: "June 2025 - Present",
     iconsSrc: <IoCodeWorking />,
-    title: "Frontend Developer at Product Studio.",
-    location: "LAGOS, NIGERIA",
+    title: "NextJs/React Developer at Snaarp Inc",
+    location: "GLASGOW, SCOTLAND",
     description:
-      "Contributed to the development of web pages and web-based applications using HTML, React.js, and Next.js. Collaborated closely with the design team to implement UI/UX designs for websites, ensuring a seamless and visually appealing user experience. Conducted code debugging to identify and resolve errors, enhancing the overall functionality of the applications.Actively participated in team meetings, providing valuable insights, and contributing to discussions on project progress and challenges.",
+      "Develop and maintain web applications using Next.js, React, and TypeScript. Translate UI/UX designs into responsive, reusable components. Optimize applications for performance, SEO, and accessibility. Integrate frontend applications with REST or GraphQL APIs. Collaborate with cross-functional teams to deliver features on time. Write clean, maintainable, and well-documented code. Fix bugs and improve existing features.",
   },
   {
     id: 2,
-    date: "May 2023 - Jan 2024",
+    date: "October 2024 - May 2025",
     iconsSrc: <IoCodeWorking />,
-    title: "Frontend Developer at Thrindle. ",
+    title: "VueJs Developer at PlantoonCo",
     location: "LAGOS, NIGERIA",
     description:
-      "Built projects with NextJs, React.js, Typescript, and Javascript. ",
+      "Designed and implemented responsive user interfaces for web applications using ReactJs. Collaborated with cross-functional teams to translate design mockups into functional code. Optimized website performance through efficient coding practices and browser compatibility testing. Conducted regular code reviews and provided feedback to improve overall code quality and maintainability.",
   },
-
   {
     id: 3,
-    date: "2022 - April 2023",
+    date: "Jan 2024 - September 2024",
     iconsSrc: <IoCodeWorking />,
-    title: "Associate Software Developer at Decagon.",
+    title: "NextJs/React Developer at Product Studio",
     location: "LAGOS, NIGERIA",
     description:
-      "Built projects with Nodejs, React.js, Typescript, and Javascript. ",
+      "Developed interactive user interfaces using NextJs, improving user engagement and reducing load times. Collaborated with cross-functional teams to implement new features and enhancements. Conducted code reviews and implemented best practices for scalability. Utilized Redux for state management and API integration to optimize data flow.",
+  },
+  {
+    id: 4,
+    date: "May 2023 - Jan 2024",
+    iconsSrc: <IoCodeWorking />,
+    title: "React / Next.Js Developer at Thrindle",
+    location: "LAGOS, NIGERIA",
+    description:
+      "Designed and implemented responsive user interfaces for web applications using ReactJs. Collaborated with cross-functional teams to translate design mockups into functional code. Optimized website performance through efficient coding practices and browser compatibility testing. Conducted regular code reviews and provided feedback to improve overall code quality and maintainability.",
+  },
+  {
+    id: 5,
+    date: "Jun 2021 - Apr 2023",
+    iconsSrc: <IoCodeWorking />,
+    title: "Frontend (React) Developer at Hopewell Engineering Company",
+    location: "LAGOS, NIGERIA",
+    description:
+      "Spearheaded the development of dynamic web pages and web-based applications utilizing HTML, React.js, and Next.js to optimize user engagement and interaction. Partnered closely with the design team to transform UI/UX designs into responsive and visually appealing interfaces, guaranteeing an intuitive user experience. Executed comprehensive code debugging sessions to swiftly identify and rectify errors, ultimately enhancing application performance and reliability.",
   },
 ];
 
@@ -53,6 +71,14 @@ export const Projects = [
   },
   {
     id: 2,
+    name: "Payroll Management and Payslip Generator",
+    imageSrc: img6,
+    techs: "VueJs, NextJs, Typescript, Redux, Tailwind, Icons",
+    github: "#",
+    link: "https://platoonco.com/",
+  },
+  {
+    id: 3,
     name: "Thrindle LandingPage",
     imageSrc: img5,
     techs: "NextJstJs, Tailwind CSS, TypeScript, React Icons ",
@@ -62,7 +88,7 @@ export const Projects = [
 
   
   {
-    id: 3,
+    id: 4,
     name: "Ecommerce App ",
     imageSrc: img2,
     techs: "React Js, Sanity,TypeScript,SwiperJs, Tailwind CSS",
@@ -70,7 +96,7 @@ export const Projects = [
     link: "https://faithy-store.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Ireti Foundation",
     imageSrc: img1,
     techs: "ReactJs,Typescript, ContextApi, React-Icon",
@@ -79,7 +105,7 @@ export const Projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Profiles HQ",
     imageSrc: img3,
     techs: "React, Tailwind CSS, TypeScript, ExpressJs, MongoDB ",
