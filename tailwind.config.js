@@ -1,5 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: 'class',
   theme: {
     extend: {
       margin: {
@@ -13,6 +14,8 @@ module.exports = {
         350: "350px",
         656: "656px",
         880: "880px",
+        1024: "1024px",
+        1200: "1200px",
         508: "508px",
       },
       height: {
@@ -30,6 +33,11 @@ module.exports = {
         navBar: "#1d1e25",
         primary: "#121316",
         textBase: "#8f9091",
+        // Light mode colors
+        lightBg: "#ffffff",
+        lightNavBar: "#f8f9fa",
+        lightText: "#374151",
+        lightTextSecondary: "#6b7280",
       },
     },
   },
