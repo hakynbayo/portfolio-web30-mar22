@@ -39,6 +39,15 @@ export const experiences = [
 
 export const projects = [
   {
+    id: 6,
+    name: "Snaarp",
+    description: "Business Email solution.",
+    image: "/images/snaarp_web.png",
+    techs: ["React", "Tailwind CSS", "TypeScript", "Express", "MongoDB"],
+    github: "https://github.com/hakynbayo",
+    link: "https://snaarp.com/",
+  },
+  {
     id: 1,
     name: "Thrindle",
     description:
